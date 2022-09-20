@@ -1,6 +1,6 @@
 # plugin-template-sf-external
 
-[![NPM](https://img.shields.io/npm/v/@salesforce/plugin-template-sf-external.svg?label=@salesforce/plugin-template-sf-external)](https://www.npmjs.com/package/@salesforce/plugin-template-sf-external) [![CircleCI](https://circleci.com/gh/salesforcecli/plugin-template-sf-external/tree/main.svg?style=shield)](https://circleci.com/gh/salesforcecli/plugin-template-sf-external/tree/main) [![Downloads/week](https://img.shields.io/npm/dw/@salesforce/plugin-template-sf-external.svg)](https://npmjs.org/package/@salesforce/plugin-template-sf-external) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://raw.githubusercontent.com/salesforcecli/plugin-template-sf-external/main/LICENSE.txt)
+[![NPM](https://img.shields.io/npm/v/plugin-template-sf-external.svg?label=plugin-template-sf-external)](https://www.npmjs.com/package/plugin-template-sf-external) [![CircleCI](https://circleci.com/gh/salesforcecli/plugin-template-sf-external/tree/main.svg?style=shield)](https://circleci.com/gh/salesforcecli/plugin-template-sf-external/tree/main) [![Downloads/week](https://img.shields.io/npm/dw/plugin-template-sf-external.svg)](https://npmjs.org/package/plugin-template-sf-external) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://raw.githubusercontent.com/salesforcecli/plugin-template-sf-external/main/LICENSE.txt)
 
 ## Using the template
 
@@ -53,7 +53,7 @@ We always recommend using the latest version of these commands bundled with the 
 ## Install
 
 ```bash
-sf plugins install @salesforce/plugin-template-sf-external@x.y.z
+sf plugins install plugin-template-sf-external@x.y.z
 ```
 
 ## Issues

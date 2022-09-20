@@ -1,5 +1,5 @@
 {
-  "name": "@salesforce/plugin-template-sf-external",
+  "name": "plugin-template-sf-external",
   "description": "A template repository for external sf plugins",
   "version": "0.0.1",
   "dependencies": {
