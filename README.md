@@ -1,5 +1,3 @@
-**NOTE: This template for sf plugins is not yet official. Please consult with the Platform CLI team before using this template.**
-
 # plugin-template-sf-external
 
 [![NPM](https://img.shields.io/npm/v/@salesforce/plugin-template-sf-external.svg?label=@salesforce/plugin-template-sf-external)](https://www.npmjs.com/package/@salesforce/plugin-template-sf-external) [![CircleCI](https://circleci.com/gh/salesforcecli/plugin-template-sf-external/tree/main.svg?style=shield)](https://circleci.com/gh/salesforcecli/plugin-template-sf-external/tree/main) [![Downloads/week](https://img.shields.io/npm/dw/@salesforce/plugin-template-sf-external.svg)](https://npmjs.org/package/@salesforce/plugin-template-sf-external) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://raw.githubusercontent.com/salesforcecli/plugin-template-sf-external/main/LICENSE.txt)
