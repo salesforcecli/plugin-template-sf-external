@@ -1,7 +1,7 @@
 [
   {
     "command": "hello:world",
-    "plugin": "@salesforce/plugin-template-sf",
+    "plugin": "@salesforce/plugin-template-sf-external",
     "flags": ["json", "name"]
   }
 ]

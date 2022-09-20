@@ -1,8 +1,8 @@
 **NOTE: This template for sf plugins is not yet official. Please consult with the Platform CLI team before using this template.**
 
-# plugin-template-sf
+# plugin-template-sf-external
 
-[![NPM](https://img.shields.io/npm/v/@salesforce/plugin-template-sf.svg?label=@salesforce/plugin-template-sf)](https://www.npmjs.com/package/@salesforce/plugin-template-sf) [![CircleCI](https://circleci.com/gh/salesforcecli/plugin-template-sf/tree/main.svg?style=shield)](https://circleci.com/gh/salesforcecli/plugin-template-sf/tree/main) [![Downloads/week](https://img.shields.io/npm/dw/@salesforce/plugin-template-sf.svg)](https://npmjs.org/package/@salesforce/plugin-template-sf) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://raw.githubusercontent.com/salesforcecli/plugin-template-sf/main/LICENSE.txt)
+[![NPM](https://img.shields.io/npm/v/@salesforce/plugin-template-sf-external.svg?label=@salesforce/plugin-template-sf-external)](https://www.npmjs.com/package/@salesforce/plugin-template-sf-external) [![CircleCI](https://circleci.com/gh/salesforcecli/plugin-template-sf-external/tree/main.svg?style=shield)](https://circleci.com/gh/salesforcecli/plugin-template-sf-external/tree/main) [![Downloads/week](https://img.shields.io/npm/dw/@salesforce/plugin-template-sf-external.svg)](https://npmjs.org/package/@salesforce/plugin-template-sf-external) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://raw.githubusercontent.com/salesforcecli/plugin-template-sf-external/main/LICENSE.txt)
 
 ## Using the template
 
@@ -55,7 +55,7 @@ We always recommend using the latest version of these commands bundled with the 
 ## Install
 
 ```bash
-sf plugins install @salesforce/plugin-template-sf@x.y.z
+sf plugins install @salesforce/plugin-template-sf-external@x.y.z
 ```
 
 ## Issues
@@ -87,7 +87,7 @@ To build the plugin locally, make sure to have yarn installed and run the follow
 
 ```bash
 # Clone the repository
-git clone git@github.com:salesforcecli/plugin-template-sf
+git clone git@github.com:salesforcecli/plugin-template-sf-external
 
 # Install the dependencies and compile
 yarn && yarn build
