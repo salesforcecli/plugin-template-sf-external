@@ -2,7 +2,7 @@ import { SfCommand, Flags } from '@salesforce/sf-plugins-core';
 import { Messages } from '@salesforce/core';
 
 Messages.importMessagesDirectory(__dirname);
-const messages = Messages.load('@salesforce/plugin-template-sf-external', 'hello.world', [
+const messages = Messages.load('plugin-template-sf-external', 'hello.world', [
   'summary',
   'description',
   'examples',
