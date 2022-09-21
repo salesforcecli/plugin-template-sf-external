@@ -1,6 +1,4 @@
-import * as path from 'path';
 import { execCmd, TestSession } from '@salesforce/cli-plugins-testkit';
-import { env } from '@salesforce/kit';
 import { expect } from 'chai';
 import { HelloWorldResult } from '../../../src/commands/hello/world';
 
@@ -8,7 +6,6 @@ let testSession: TestSession;
 
 describe('hello world NUTs', () => {
   before('prepare session', async () => {
-    env.setString('TESTKIT_EXECUTABLE_PATH', path.join(process.cwd(), 'bin', 'dev'));
     testSession = await TestSession.create({ authStrategy: 'NONE' });
   });
 

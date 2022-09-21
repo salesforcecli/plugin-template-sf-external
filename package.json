@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@oclif/test": "^2.1.1",
-    "@salesforce/cli-plugins-testkit": "^2.3.13",
+    "@salesforce/cli-plugins-testkit": "^2.4.1",
     "@salesforce/dev-config": "^3.1.0",
     "@salesforce/dev-scripts": "^2",
     "@salesforce/prettier-config": "^0.0.2",
