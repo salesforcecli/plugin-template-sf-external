@@ -1,6 +1,6 @@
 # plugin-template-sf-external
 
-[![NPM](https://img.shields.io/npm/v/plugin-template-sf-external.svg?label=plugin-template-sf-external)](https://www.npmjs.com/package/plugin-template-sf-external) [![CircleCI](https://circleci.com/gh/salesforcecli/plugin-template-sf-external/tree/main.svg?style=shield)](https://circleci.com/gh/salesforcecli/plugin-template-sf-external/tree/main) [![Downloads/week](https://img.shields.io/npm/dw/plugin-template-sf-external.svg)](https://npmjs.org/package/plugin-template-sf-external) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://raw.githubusercontent.com/salesforcecli/plugin-template-sf-external/main/LICENSE.txt)
+[![NPM](https://img.shields.io/npm/v/plugin-template-sf-external.svg?label=plugin-template-sf-external)](https://www.npmjs.com/package/plugin-template-sf-external) [![Downloads/week](https://img.shields.io/npm/dw/plugin-template-sf-external.svg)](https://npmjs.org/package/plugin-template-sf-external) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://raw.githubusercontent.com/salesforcecli/plugin-template-sf-external/main/LICENSE.txt)
 
 ## Using the template
 
@@ -24,7 +24,7 @@ This repository provides a template for creating a plugin for the Salesforce CLI
 
 Salesforce CLI plugins are based on the [oclif plugin framework](<(https://oclif.io/docs/introduction.html)>). Read the [plugin developer guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_plugins.meta/sfdx_cli_plugins/cli_plugins_architecture_sf_cli.htm) to learn about Salesforce CLI plugin development.
 
-This repository contains a lot of additional scripts and tools to help with general Salesforce node development and enforce coding standards. You should familiarize yourself with some of the [node developer packages](#tooling) used by Salesforce. There is also a default circleci config using the [release management orb](https://github.com/forcedotcom/npm-release-management-orb) standards.
+This repository contains a lot of additional scripts and tools to help with general Salesforce node development and enforce coding standards. You should familiarize yourself with some of the [node developer packages](#tooling) used by Salesforce. 
 
 Additionally, there are some additional tests that the Salesforce CLI will enforce if this plugin is ever bundled with the CLI. These test are included by default under the `posttest` script and it is required to keep these tests active in your plugin if you plan to have it bundled.
 
