@@ -2,13 +2,7 @@ import { SfCommand, Flags } from '@salesforce/sf-plugins-core';
 import { Messages } from '@salesforce/core';
 
 Messages.importMessagesDirectory(__dirname);
-const messages = Messages.load('plugin-template-sf-external', 'hello.world', [
-  'summary',
-  'description',
-  'examples',
-  'flags.name.summary',
-  'info.hello',
-]);
+const messages = Messages.loadMessages('plugin-template-sf-external', 'hello.world');
 
 export type HelloWorldResult = {
   name: string;
@@ -20,7 +14,7 @@ export default class World extends SfCommand<HelloWorldResult> {
   public static readonly description = messages.getMessage('description');
   public static readonly examples = messages.getMessages('examples');
 
-  public static flags = {
+  public static readonly flags = {
     name: Flags.string({
       char: 'n',
       summary: messages.getMessage('flags.name.summary'),
