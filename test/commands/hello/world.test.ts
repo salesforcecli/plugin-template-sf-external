@@ -1,18 +1,18 @@
-import * as sinon from 'sinon';
+import { TestContext } from '@salesforce/core/lib/testSetup';
 import { expect } from 'chai';
 import { stubSfCommandUx } from '@salesforce/sf-plugins-core';
 import World from '../../../src/commands/hello/world';
 
 describe('hello world', () => {
-  const sandbox = sinon.createSandbox();
+  const $$ = new TestContext();
   let sfCommandStubs: ReturnType<typeof stubSfCommandUx>;
 
   beforeEach(() => {
-    sfCommandStubs = stubSfCommandUx(sandbox);
+    sfCommandStubs = stubSfCommandUx($$.SANDBOX);
   });
 
   afterEach(() => {
-    sandbox.restore();
+    $$.restore();
   });
 
   it('runs hello world', async () => {
