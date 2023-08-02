@@ -23,7 +23,7 @@
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-salesforce": "^2.0.1",
-    "eslint-config-salesforce-typescript": "^1.1.1",
+    "eslint-config-salesforce-typescript": "^1.1.2",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsdoc": "^44.2.7",
     "eslint-plugin-sf-plugin": "^1.16.0",
