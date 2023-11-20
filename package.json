@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "dependencies": {
     "@oclif/core": "^3.11.0",
-    "@salesforce/core": "^5.3.20",
+    "@salesforce/core": "^6",
     "@salesforce/sf-plugins-core": "^5.0.1"
   },
   "devDependencies": {
+    "@oclif/plugin-command-snapshot": "^5.0.2",
     "@salesforce/cli-plugins-testkit": "^5.0.4",
     "@salesforce/dev-scripts": "^7.1.1",
     "@types/inquirer": "^8",
@@ -15,9 +16,7 @@
     "oclif": "^4.0.3",
     "shx": "0.3.4",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2",
-    "@oclif/plugin-command-snapshot": "^5.0.2",
-    "eslint-config-salesforce-typescript": "^3.0.5"
+    "typescript": "^5.2.2"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -56,13 +55,13 @@
     "build": "wireit",
     "clean": "sf-clean",
     "clean-all": "sf-clean all",
-    "clean:lib": "shx rm -rf lib && shx rm -rf coverage && shx rm -rf .nyc_output && shx rm -f oclif.manifest.json",
+    "clean:lib": "shx rm -rf lib && shx rm -rf coverage && shx rm -rf .nyc_output && shx rm -f oclif.manifest.json oclif.lock",
     "compile": "wireit",
     "docs": "sf-docs",
     "format": "wireit",
     "lint": "wireit",
     "postinstall": "yarn husky install",
-    "postpack": "shx rm -f oclif.manifest.json",
+    "postpack": "shx rm -f oclif.manifest.json oclif.lock",
     "prepack": "sf-prepack",
     "test": "wireit",
     "test:nuts": "nyc mocha \"**/*.nut.ts\" --slow 4500 --timeout 600000 --parallel",
