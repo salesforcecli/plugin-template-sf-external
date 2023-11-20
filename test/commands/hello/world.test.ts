@@ -1,7 +1,7 @@
-import { TestContext } from '@salesforce/core/lib/testSetup';
+import { TestContext } from '@salesforce/core/lib/testSetup.js';
 import { expect } from 'chai';
 import { stubSfCommandUx } from '@salesforce/sf-plugins-core';
-import World from '../../../src/commands/hello/world';
+import World from '../../../src/commands/hello/world.js';
 
 describe('hello world', () => {
   const $$ = new TestContext();
