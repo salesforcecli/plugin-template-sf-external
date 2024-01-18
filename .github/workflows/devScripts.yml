@@ -7,5 +7,4 @@ on:
 jobs:
   update:
     uses: salesforcecli/github-workflows/.github/workflows/devScriptsUpdate.yml@main
-    secrets:
-      SVC_CLI_BOT_GITHUB_TOKEN: ${{ secrets.SF_CLI_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+    secrets: inherit
