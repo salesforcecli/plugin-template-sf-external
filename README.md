@@ -91,11 +91,11 @@ git clone git@github.com:salesforcecli/plugin-template-sf-external
 yarn && yarn build
 ```
 
-To use your plugin, run using the local `./bin/dev` or `./bin/dev.cmd` file.
+To use your plugin, run using the local `./bin/dev.js` or `./bin/dev.cmd` file.
 
 ```bash
 # Run using local run file.
-./bin/dev hello world
+./bin/dev.js hello world
 ```
 
 There should be no differences when running via the Salesforce CLI or using the local run file. However, it can be useful to link the plugin to do some additional testing or run your commands from anywhere on your machine.
